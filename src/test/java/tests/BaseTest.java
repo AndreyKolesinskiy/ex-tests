@@ -11,9 +11,17 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.extension.ExtendWith;
+import pages.CareersPage;
+import pages.ContactUsPage;
+import pages.HomePage;
 
 @ExtendWith({AllureJunit5.class})
 public class BaseTest {
+
+    HomePage homePage = new HomePage();
+    ContactUsPage contactUsPage = new ContactUsPage();
+    CareersPage careersPage = new CareersPage();
+
     @BeforeAll
     static void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
