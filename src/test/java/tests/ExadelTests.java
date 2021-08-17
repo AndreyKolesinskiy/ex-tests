@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
+@DisplayName("UI tests for https://exadel.com/")
 public class ExadelTests extends BaseTest {
 
     @Test
