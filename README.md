@@ -8,7 +8,7 @@
 |:--------:|:-------------:|:---------:|:-------:|:--------:|
 | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/64fc9f701b325cfc520ee86240394ce8d72dd195/images/Jenkins.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/64fc9f701b325cfc520ee86240394ce8d72dd195/images/Selenoid.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/f0701c966586c26ed7491d721ff90d9b650ce1b6/images/Allure%20Report.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/f0701c966586c26ed7491d721ff90d9b650ce1b6/images/Allure%20TestOps.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/f0701c966586c26ed7491d721ff90d9b650ce1b6/images/Telegram.svg" width="40" height="40"> |
 
-### :gear: Build can be started in Jenkins with parameters:
+### :gear: Build can be started in Jenkins with parameters ([link to Jenkins(https://jenkins.autotests.cloud/job/AndreiK_UItests_ex/)]):
 <img src="https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/Jenkins.png?raw=true" >
 
 ### :bar_chart: Results of test run in Allure report:
