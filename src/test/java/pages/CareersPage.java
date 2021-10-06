@@ -2,8 +2,7 @@ package pages;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class CareersPage {
 
@@ -19,7 +18,8 @@ public class CareersPage {
 
     public CareersPage selectSpecialty(String specialty){
         $("#specialty_select").click();
-        $("#careers_specialty_list").$(byText(specialty)).click();
+        $("#any_specialty_label").click();
+        $x(String.format("//label[text()='%s']", specialty)).click();
         return this;
     }
 

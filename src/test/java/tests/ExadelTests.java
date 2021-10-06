@@ -61,7 +61,7 @@ public class ExadelTests extends BaseTest {
         });
 
         step("Select specialty", () -> {
-            careersPage.selectSpecialty("Quality Assurance");
+            careersPage.selectSpecialty("Automation QA");
         });
 
         step("Select location", () -> {
