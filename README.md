@@ -26,6 +26,9 @@
 ### :file_cabinet: Test cases in Allure TestOps:
 <img src="https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/Test%20cases%20in%20TestOps.png?raw=true" >
 
+### :gear: Test cases and results of launches are added to Jira ([link to Jira](https://jira.autotests.cloud/browse/HOMEWORK-267)):
+<img src="https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/Jira.png?raw=true" >
+
 ### :movie_camera: Video of test execution in Selenoid:
 ![alt text](https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/testVideo.gif?raw=true "Tests execution recorded")
 ### To run tests locally:
