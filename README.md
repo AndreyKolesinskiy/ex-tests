@@ -20,7 +20,7 @@
 ### :bell: Notifications are sent to Telegram group:
 <img src="https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/Testrun%20notifications%20in%20Telegram.png?raw=true" >
 
-### :chart_with_upwards_trend: Dashboard in Allure TestOps:
+### :chart_with_upwards_trend: Dashboard in Allure TestOps ([link to TestOps](https://allure.autotests.cloud/project/307/dashboards)):
 <img src="https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/Dashboard.png?raw=true" >
 
 ### :file_cabinet: Test cases in Allure TestOps:
