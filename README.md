@@ -8,6 +8,15 @@
 |:--------:|:-------------:|:---------:|:-------:|:--------:|
 | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/64fc9f701b325cfc520ee86240394ce8d72dd195/images/Jenkins.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/64fc9f701b325cfc520ee86240394ce8d72dd195/images/Selenoid.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/f0701c966586c26ed7491d721ff90d9b650ce1b6/images/Allure%20Report.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/f0701c966586c26ed7491d721ff90d9b650ce1b6/images/Allure%20TestOps.svg" width="40" height="40"> | <img src="https://raw.githubusercontent.com/AndreyKolesinskiy/repo-for-data/f0701c966586c26ed7491d721ff90d9b650ce1b6/images/Telegram.svg" width="40" height="40"> |
 
+### Tests can be started with different parameters:
+* browser (default chrome)
+* browserVersion (default 91.0)
+* browserSize (default 1920x1080)
+* browserMobileView (mobile device name, for example iPhone X)
+* remoteDriverUrl (url address from selenoid or grid)
+* videoStorage (url address where you should get video)
+* threads (number of threads)
+
 ### :gear: Build can be started with selected parameters in Jenkins ([link to Jenkins](https://jenkins.autotests.cloud/job/AndreiK_UItests_ex/)):
 <img src="https://github.com/AndreyKolesinskiy/repo-for-data/blob/master/images/Jenkins.png?raw=true" >
 
