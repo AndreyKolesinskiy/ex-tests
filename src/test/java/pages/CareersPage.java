@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.Locale;
+
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
@@ -66,7 +68,7 @@ public class CareersPage {
     }
 
     public CareersPage selectCity(String city){
-        $("[name*='job-city']").selectOption(city);
+        $("[name='job-city-poland']").selectOption(city);
         return this;
     }
 
@@ -77,6 +79,12 @@ public class CareersPage {
 
     public CareersPage clickEvaluatingApplicationCheckbox(){
         $("[name='accept-pers-exadel[]']").parent().click();
+        return this;
+    }
+
+    public CareersPage selectCountryAndCity(String country, String city){
+        $("[name=job-country]").selectOption(country);
+        $(String.format("[name='job-city-%s']", country.toLowerCase())).selectOption(city);
         return this;
     }
 

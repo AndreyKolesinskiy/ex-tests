@@ -116,8 +116,7 @@ public class ExadelTests extends BaseTest {
                     .fillLastName("LastName")
                     .fillEmail("testemail@gmail.com")
                     .fillPhoneNumber("123123123")
-                    .selectCountry("Belarus")
-                    .selectCity("Grodno")
+                    .selectCountryAndCity("Poland","Bialystok")
                     .clickPrivacyPolicyCheckbox()
                     .clickEvaluatingApplicationCheckbox();
         });
