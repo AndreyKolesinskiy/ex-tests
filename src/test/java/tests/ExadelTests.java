@@ -87,7 +87,7 @@ public class ExadelTests extends BaseTest {
         });
 
         step("Select location", () -> {
-            careersPage.selectLocation("Grodno");
+            careersPage.selectLocation("Poland");
         });
 
         step("Click Search", () -> {
